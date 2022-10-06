@@ -1,0 +1,19 @@
+.container{
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    display: flex;  
+    /* Propiedad para iniciar con flex box  */
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.item  {
+    width: 100px;
+    height: 100px;
+    background-color: beige;
+    margin: 5px;
+
+}
+
